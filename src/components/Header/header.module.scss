@@ -1,0 +1,16 @@
+.header {
+  width: 240px;
+  color: black;
+  margin-bottom: 30px;
+
+  .header__items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .header__item {
+    font-size: 17px;
+    font-weight: bold;
+  }
+}

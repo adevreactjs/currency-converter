@@ -1,0 +1,21 @@
+.currency {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+
+  input {
+    background: rgb(111, 182, 247);
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px 0px 0px 15px;
+  }
+
+  select {
+    background: rgb(0, 123, 255);
+    border: 0;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0px 15px 15px 0px;
+  }
+}
