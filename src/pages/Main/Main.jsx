@@ -35,8 +35,8 @@ const Main = () => {
     return number.toFixed(2);
   }
 
-  function handleAmountFistChange(amountFist) {
-    setAmountFist(amountFist);
+  function handleAmountFistChange(amountFirst) {
+    setAmountFist(amountFirst);
     let currentValueMoney = rates.filter(el => el.cc === currencyFirst);
     let currentSecondValueMoney = rates.filter(el => el.cc === currencySecond);
     if (
@@ -50,8 +50,8 @@ const Main = () => {
     }
   }
 
-  function handleCurrencyFirstChange(currencyFist) {
-    setCurrencyFirst(currencyFist);
+  function handleCurrencyFirstChange(currencyFirst) {
+    setCurrencyFirst(currencyFirst);
     let currentValueMoney = rates.filter(el => el.cc === currencyFirst);
     let currentSecondValueMoney = rates.filter(el => el.cc === currencySecond);
     setAmountSecond(
