@@ -59,11 +59,6 @@ const Main = () => {
     );
   }
 
-
-
-
-
-
   function handleAmountSecondChange(amountSecond) {
     setAmountSecond(amountSecond);
     let currentValueMoney = rates.filter(el => el.cc === currencyFirst);
