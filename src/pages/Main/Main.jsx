@@ -41,11 +41,11 @@ const Main = () => {
     let currentSecondValueMoney = rates.filter(el => el.cc === currencySecond);
     if (
       !isNaN(
-        formatValue((amountFist * currentValueMoney[0].rate) / currentSecondValueMoney[0].rate),
+        formatValue((amountFirst * currentValueMoney[0].rate) / currentSecondValueMoney[0].rate),
       )
     ) {
       setAmountSecond(
-        formatValue((amountFist * currentValueMoney[0].rate) / currentSecondValueMoney[0].rate),
+        formatValue((amountFirst * currentValueMoney[0].rate) / currentSecondValueMoney[0].rate),
       );
     }
   }
@@ -58,6 +58,11 @@ const Main = () => {
       formatValue((amountFist * currentValueMoney[0].rate) / currentSecondValueMoney[0].rate),
     );
   }
+
+
+
+
+
 
   function handleAmountSecondChange(amountSecond) {
     setAmountSecond(amountSecond);
